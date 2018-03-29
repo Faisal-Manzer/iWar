@@ -1,0 +1,66 @@
+<!--
+iWAR
+iFM 2015 version 3.4
+Created By Faisal Manzer
+File iWAR.html
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iWar || Faisal Manzer, Tamsil</title>
+<link rel="icon" href="image/favicon.png">
+<link href="css/iWAR.css" rel="stylesheet">
+<link href="css/W3.css" rel="stylesheet" />
+</head>
+<body class="w3-container">
+<audio id="bga" loop>
+<source src="sound/bg.mp3">
+</audio>
+<audio id="cli">
+<source src="sound/click.WAV">
+</audio>
+<audio id="over">
+<source src="sound/over.wav">
+</audio>
+<audio id="bounce">
+<source src="sound/bounce.mp3">
+</audio>
+<div id="pbox" onClick="clickmu();mpause();" class="play-area">
+    <div id="marea" onClick="clickmu();mpause();">
+        <div id="parea" onclick="clickmu();mpause();"></div>
+        <div id="marea"></div>
+    </div>
+    <div id="offarea" onclick="mpause();" style="color:#FFF" class="menu"><center>
+    <div class="w3-xxlarge w3-text-white-opacity" onClick="clickmu();mpause();">WELCOME TO<br><span class="w3-xxxlarge">FIRAYALAL PUBLIC SCHOOL</span></div><br>
+    <div class="w3-text-white w3-xxlarge" onClick="clickmu();mpause();">This game is created by<br><span class="w3-large iwar w3-xxxlarge">FAISAL MANZER</div><br><br>
+    <img src="image/01.gif" onClick="clickmu();mpause();" class="w3-card-24"><br><br><span class="w3-text-white w3-large">Click Any Where To Play</span>
+    </center>
+
+</div>
+</div>
+
+<div class="side-bar">
+    <div class="w3-xxxlarge iwar" align="center" style="color:#EEE" onClick="clickmu();mpause();">iWAR</div>
+<br>
+<center>
+    <div class="w3-btn w3-large side-menu-btn w3-red" onClick="clickmu();pause();">Play/Pause</div><br><br>
+    <div class="w3-btn w3-large side-menu-btn w3-blue" onClick="clickmu();ifm();pause();">New Game</div><br><br>
+    <div class="w3-btn w3-large side-menu-btn w3-orange" onClick="clickmu();mute();">Mute/Unmute</div><br><br>
+    <div class="w3-btn w3-large side-menu-btn w3-blue-grey" onClick="clickmu();pause();">Hi Score: <span id="hisc">0</span></div><br><br>
+    <div class="w3-btn w3-large side-menu-btn w3-black" id="points" onClick="clickmu();pause();">Score: 0</div><br><br>
+    <div class="w3-btn w3-large side-menu-btn w3-green" onClick="clickmu();pause();">Faisal Manzer</div><br><br>
+</center>
+    <div>
+  <p class="w3-text-white w3-blockquote w3-white w3-card-12" onDblClick="resets();" style="font-weight:bold; font-family:comic;">Create Your Imagination,<br>They Will Create You<br><span class="w3-text-black-opacity">-Faisal Manzer</span></p>
+ </div>
+</center>
+<br>
+<footer class="w3-btn w3-grey" style="font-weight:bold; position:absolute; bottom:0; width:100%;">
+<span class="iwar">iFM</span> 2015 version 3.4
+</footer>
+</div>
+
+</body>
+<script src="js/iWAR.js"></script>
+</html>

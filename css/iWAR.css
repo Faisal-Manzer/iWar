@@ -1,0 +1,70 @@
+/*
+iWAR
+iFM 2015 version 3.4
+Created By Faisal Manzer
+File iWAR.css
+*/
+@font-face {
+    font-family:comicbd;
+    src: url(../Fonts/comicbd.ttf);
+}
+@font-face {
+    font-family:droid;
+    src: url(../Fonts/droid.ttf);
+}
+@font-face {
+    font-family:comic;
+    src: url(../Fonts/comic.ttf);
+}
+body
+{
+	background-color:#eee;
+	width:100%;
+	height:100%;
+	background-image:url(../image/bg.jpg);
+}
+.menu
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	font-family:comicbd;
+}
+.iwar
+{
+	font-family:droid;
+}
+.sidemenu
+{
+	position:fixed;
+	top:0;
+	right:0;
+	height:100%;
+	width:415px;
+}
+.play-area
+{
+	width:80%;
+	height:100%;
+	position:fixed;
+	left:0px;
+	top:0px;
+	background-color:rgba(0,0,0,0.0);
+}
+.side-bar
+{
+	position:fixed;
+	top:0px;
+	right:0px;
+	width:20%;
+	height:100%;
+	background-color:rgba(0,0,0,0.3);
+}
+.side-menu-btn
+{
+	width:90%;
+	font-family:comic;
+	font-weight:bold;
+}
